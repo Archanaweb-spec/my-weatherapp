@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    background: linear-gradient(to bottom, #5f9cff, #6dd5fa);
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.app {
+    background: #1e2a38;
+    color: white;
+    width: 360px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.search {
+    display: flex;
+    gap: 10px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+.search button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.current-weather {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.current-weather img {
+    width: 90px;
+}
+
+.temp {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.hourly {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hour {
+    background: #2e3f55;
+    padding: 10px;
+    border-radius: 12px;
+    min-width: 70px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.hour img {
+    width: 35px;
+}
+
+.forecast {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.day {
+    background: #2e3f55;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 14px;
+    width: 60px;
+}
+
+.day img {
+    width: 35px;
+}
